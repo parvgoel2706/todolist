@@ -1,0 +1,93 @@
+body {
+  height: 100vh;
+  text-align: center;
+  background-image: repeating-radial-gradient(#891652,#240A34  100%);
+}
+h1 {
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 3rem;
+  color: rgb(146, 222, 53);
+}
+#text {
+  width: 50%;
+  height: 3rem;
+  margin: 10px 20px 0 0;
+  font-size: 1.5rem;
+  background-color: rgb(233, 226, 167);
+  border: 3px solid black;
+  border-radius: 15px;
+  padding-left: 50px;
+  box-shadow: 10px 10px 30px rgb(26, 23, 21);
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url(./pen2.png);
+  background-size: 3.2rem;
+  background-repeat: no-repeat;
+}
+#add{
+    border-radius: 10px;
+    margin: 10px 20px 0 0;
+
+    height:3rem;
+    font-size: 1.2rem;
+    color:rgb(7, 14, 17);
+    font-weight: 600;
+    background-color: red;
+    padding:10px;
+    border: 3px dotted ;
+    box-shadow: 0px 0px 10px rgb(234, 115, 24);
+}
+.logo{
+    height: 20px;
+    margin-right: 5px;
+    }
+#list {
+  padding: 10px;
+  text-align: left;
+}
+li{
+    font-size: 1.5rem;
+    padding:10px;
+    display: flex;
+    color: rgb(0, 0, 0);
+    background-color:  rgb(99, 145, 235);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #332bc6;
+}
+li:hover{
+    background-color:rgba(183, 204, 245, 0.827);
+    .delete{
+        opacity:0.7;
+    }
+}
+.changeuncheck{
+  background-image: url("./blank.jpg");
+  background-size: 1.5rem;
+}
+.changecheck{
+  background-image: url("./check.jpg");
+  background-size: 1.6rem;
+}
+div {
+  width: 90%;
+  margin: auto;
+}
+.checkbox{
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 15px;
+}
+.content{
+  display: inline-block;
+  width:85%;
+}
+
+.delete{
+    opacity:0;
+    height: 2.5rem;
+    margin-right: 1rem;
+}
+
