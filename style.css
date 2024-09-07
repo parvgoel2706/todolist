@@ -66,11 +66,11 @@ li:hover{
 }
 .changeuncheck{
   background-image: url("./blank.jpg");
-  background-size: 1.5rem;
+  background-size: 1.3rem;
 }
 .changecheck{
   background-image: url("./check.jpg");
-  background-size: 1.6rem;
+  background-size: 1.4rem;
 }
 div {
   width: 90%;
